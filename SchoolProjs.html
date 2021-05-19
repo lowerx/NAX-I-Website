@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <title>NAX'I Corporation</title>
+  <title>NAX'I About Where We Were</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
@@ -27,14 +27,7 @@
       font-size: 40px;
     }
 
-    /* Style the top navigation bar */
-    .navbar {
-      overflow: hidden;
-      background-color: #333;
-    }
-
-    /* Style the navigation bar links */
-    .navbar a.available {
+    .header a {
       float: left;
       display: block;
       color: white;
@@ -43,13 +36,36 @@
       text-decoration: none;
     }
 
-    .navbar a.available:hover {
+    .header a.main_page:hover {
       background-color: #ddd;
       color: black;
     }
 
-    .image {
+    /* Style the top navigation bar */
+    .navbar {
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    /* Style the navigation bar links */
+    .navbar a {
+      float: left;
+      display: block;
+      color: white;
       text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    /* Right-aligned link */
+    .navbar a.right {
+      float: right;
+    }
+
+    /* Change color on hover */
+    .navbar a.available:hover {
+      background-color: #ddd;
+      color: black;
     }
 
     .footer {
@@ -82,28 +98,35 @@
 <body>
 
 	<div class="header">
-    <h2>NAX'I Corporation</h2>
+		<a class="main_page"; href="index.html">Main page</a>
+		<h2>About Where We Were</h2>
 	</div>
 
 	<div class="navbar">
 		<a class="available"; href="Investing.html">Investing</a>
 		<a class="available"; href="Games.html">Games</a>
 		<a class="available"; href="Foundation.html">Foundation</a>
-    <a class="available"; href="Studio.html">Studio</a>
-    <a class="available" href="AWWW.html">About Where We Were</a>
-    <a class="available" href="SchoolProjs.html">Our School Projects</a>
+		<a class="available"; href="Studio.html">Studio</a>
+		<a class="available"; href="AWWW.html">About Where We Were</a>
+    <a>Our School Projects</a>
 		<a class="available"; href="AboutUs.html"; style="float: right;">About Us</a>
 	</div>
 
 	<div class="main">
-    <div class="image">
-      <img src="Images/NaxiTeam.jpg">
-    </div>
+		<div class="line">
+			<table>
+				<tr>
+					<th>
+						<a href="SchoolProjects/CreditWork(19.05.21)/main.html">Credit Work for 19.05.21</a>
+					</th>
+				</tr>
+			</table>
+		</div>
 	</div>
 
-  <div class="call_to_sir">
+	<div class="call_to_sir">
 
-  </div>
+	</div>
 
 	<div class="footer">
 		<span>
