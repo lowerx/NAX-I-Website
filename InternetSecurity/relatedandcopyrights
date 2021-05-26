@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>Related Rights And Copyrights</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+    }
+
+    /* Style the header */
+    .header {
+      padding: 10px;
+      text-align: center;
+      background: #1abc9c;
+      color: white;
+    }
+
+    /* Increase the font size of the h1 element */
+    .header h1 {
+      font-size: 40px;
+    }
+
+    .header a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    .header a.main_page:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .footer {
+      box-sizing: border-box;
+      font-size: 20px;
+      bottom: 0;
+      width: 100%;
+      padding: 15px 10px;
+      text-align: right;
+      background-color: rgb(55, 125, 190);
+      color: black;
+    }
+
+    /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 700px) {
+      .row {   
+        flex-direction: column;
+      }
+    }
+
+    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+    @media screen and (max-width: 400px) {
+      .navbar a {
+        float: none;
+        width:100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+	<div class="header">
+    	<h2>Related Rights And Copyrights</h2>
+	</div>
+
+	<div class="main">
+    	<span>
+        Отличие смежных прав от авторских прав обусловлено характером их возникновения и особенностями творческого процесса. Смежные права почти всегда имеют производный характер, а процесс создания объекта заключается в творческой переработке исходного произведения или формы выражения. Разберем, в чем заключаются особенности смежных и авторских прав, и как это повлияет на режим правовой охраны.
+        Закон разграничивает объектный состав смежный и авторских прав, а также их содержание. Результаты творческого труда будут носить авторский характер, если представлены в следующих формах:
+
+        произведения в сфере искусства, науки и литературы;
+        музыкальные композиции, в том числе с текстовым сопровождением;
+        творческие объекты драматургии, хореографии;
+        живопись, изображения, фотоснимки, графические и дизайнерские проекты;
+        программные продукты для ЭВМ и базы данных;
+        иные объекты творчества.
+        К объектам смежных прав закон относит результаты исполнения, фонограммы, передачи кабельного и эфирного вещания, содержание баз данных. При создании указанных объектов используются исходные результаты авторского творчества (музыка, программная оболочка базы данных и т.д.), поэтому смежное право носит вторичный характер.
+
+        Режим правовой охраны для указанных выше объектов также будет отличаться. Смежные права носят только имущественный характер, могут продаваться или передаваться иным лицам по договорам уступки или лицензионным соглашениям. На авторские объекты возникают и неимущественные права, которые будут связаны только с личностью создателя. Передача личных прав по договору или иным способом законом запрещена, они являются неотчуждаемыми.
+
+        Отличается и срок правовой охраны указанных объектов. Существенно преимущество имеет обладатель авторских прав – режим охраны сохранится на 70 лет после смерти создателя произведения. Для смежных прав период охраны значительно меньше и не превышает 50 лет с момента создания объекта (для отдельных форм смежного права этот срок будет еще меньше).
+      </span>
+  </div>
+
+    <div class="call_to_sir">
+
+    </div>
+
+	<div class="footer">
+		<span>
+			NAX'I Corporation
+			@Copyright 2021
+		</span>
+	</div>
+
+</body>
+</html>
