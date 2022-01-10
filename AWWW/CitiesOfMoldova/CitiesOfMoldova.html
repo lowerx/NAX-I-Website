@@ -112,7 +112,7 @@
 
     .dropdown:hover .dropdown-content {
       display: block;
-    } 
+    }
 
     .slideshow-block {
       overflow: hidden;
@@ -245,7 +245,7 @@
 
     /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
     @media screen and (max-width: 700px) {
-      .row {   
+      .row {
         flex-direction: column;
       }
     }
@@ -289,12 +289,12 @@
             <div class="numbertext">1 / 3</div>
             <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Moldova_administrative_map-ru.svg" style="width:100%">
           </div>
-        
+
           <div class="slides fade">
             <div class="numbertext">2 / 3</div>
             <img src="https://static.dw.com/image/50660227_303.jpg" style="width:100%">
           </div>
-        
+
           <div class="slides fade">
             <div class="numbertext">3 / 3</div>
             <img src="https://mediap.flypgs.com/awh/1263/838//files/ulkeler/Moldova/moldovaya-ne-zaman-gidilir.JPG" style="width:100%">
@@ -334,12 +334,12 @@
                 Описание
               </b>
               <br> <br>
-              Государство в Юго-Восточной Европе. Граничит с Украиной и Румынией. 
-              Площадь территории — 33 846 км², однако де-факто около 12,3 % территории (непризнанная Приднестровская Молдавская Республика) не контролируется молдавскими властями. 
+              Государство в Юго-Восточной Европе. Граничит с Украиной и Румынией.
+              Площадь территории — 33 846 км², однако де-факто около 12,3 % территории (непризнанная Приднестровская Молдавская Республика) не контролируется молдавскими властями.
               Занимает 132-е место в мире по численности населения и 135-е по территории.
               Перейти к разделу.
-              Выхода к морю не имеет. 
-              Унитарная парламентская республика. 
+              Выхода к морю не имеет.
+              Унитарная парламентская республика.
               <br> <br>
               Столица - Кишинев
               <br> <br>
@@ -356,7 +356,7 @@
     <span>
       <b>
         Gmail:
-      </b> 
+      </b>
       naxicorporation@gmail.com
     </span>
     <br>
@@ -365,35 +365,35 @@
 			@Copyright 2021
 		</span>
   </div>
-  
+
   <script>
     var slideIndex = 1;
     showSlides(slideIndex);
-    
+
     function plusSlides(n) {
       showSlides(slideIndex += n);
     }
-    
+
     function currentSlide(n) {
       showSlides(slideIndex = n);
     }
-    
+
     function showSlides(n) {
       var i;
       var slides = document.getElementsByClassName("slides");
       var dots = document.getElementsByClassName("dot");
-      if (n > slides.length) {slideIndex = 1}    
+      if (n > slides.length) {slideIndex = 1}
       if (n < 1) {slideIndex = slides.length}
       for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";  
+          slides[i].style.display = "none";
       }
       for (i = 0; i < dots.length; i++) {
           dots[i].className = dots[i].className.replace(" active", "");
       }
-      slides[slideIndex-1].style.display = "block";  
+      slides[slideIndex-1].style.display = "block";
       dots[slideIndex-1].className += " active";
     }
-    </script>
+  </script>
 
 </body>
 </html>
